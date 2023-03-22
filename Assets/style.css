@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #97C1D9;
+    text-align: center;
+  }
+
+  header {
+    background-color: #293241;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  #currentDay {
+    font-size: 2.5em;
+    color:#EE6C4D;
+    margin-bottom: 0;
+  }
+
+  #saved-notice {
+    padding-bottom: 1em
+    
+
+  }
+
+  .time-list {
+    margin-bottom: 3em;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    background-color: #EE6C4D;
+    border-radius: 15px;
+    color:#293241;
+  }
+  
+  .row {
+    border-top: 1px solid white; 
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+
+  #block {
+    background-color: #EE6C4D;
+    color: #293241;
+    font-size: 1.5em;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #086f87;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
