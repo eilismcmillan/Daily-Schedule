@@ -39,6 +39,7 @@ body {
   
   .description {
     white-space: pre-wrap;
+    font-size: 20px;
   }
   
   .time-block {
